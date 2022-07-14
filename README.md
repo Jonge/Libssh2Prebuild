@@ -17,11 +17,11 @@
 Add line to you package.swift dependencies:
 
 ```
-.package(name: "CSSH", url: "https://github.com/DimaRU/Libssh2Prebuild.git", from: "1.9.0")
+.package(name: "CSSH", url: "https://github.com/Jonge/Libssh2Prebuild.git", from: "1.9.0")
 
 ```
 
-Right now used with the Shout library: [https://github.com/DimaRU/Shout](https://github.com/DimaRU/Shout)  
+Right now used with the Shout library: [https://github.com/Jonge/Shout](https://github.com/Jonge/Shout)  
 Note: Now script used with xczip which results in stable archive checksum (it is not changed from build to build).
 
 ### Xcode 12 bug note!
@@ -39,7 +39,7 @@ rm -f ${CODESIGNING_FOLDER_PATH}/Contents/Frameworks/*.a
 
 Required Xcode 12.2, and [github cli](https://github.com/cli/cli). Intended to use with github.
 
-1. Install xczip: `brew install DimaRU/formulae/xczip`
+1. Install xczip: `brew install xczip`
 2. Install gh: `brew install gh`
 3. Authorize gh: `gh auth`
 4. Fork and clone this repo
